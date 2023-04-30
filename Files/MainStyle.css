@@ -1,0 +1,236 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700|Work+Sans:300,400,500,600,700&display=swap); /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: Work Sans, Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  position: sticky;
+  top: 0;
+  width: 100vw;
+  background-color: white;
+  z-index: 1000;
+}
+.navtools {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+#logo {
+  width: 268px;
+  height: 70px;
+  background-color: white;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+#home,
+#aboutus,
+#contactus,
+#collection {
+  text-decoration: none;
+  color: rgb(164, 154, 135);
+}
+#home:hover,
+#home:active,
+#aboutus:hover,
+#aboutus:active,
+#contactus:hover,
+#contactus:active,
+#collection:active,
+#collection:hover,
+#home:focus,
+#aboutus:focus,
+#contactus:focus,
+#collection:focus {
+  text-decoration: none;
+  color: pink;
+}
+/* nav bar styling */
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#logo2 {
+  width: 200px;
+  aspect-ratio: auto 40 / 40;
+}
+/* main done */
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.silver {
+  display: flex;
+  margin-bottom: 10px;
+}
+#silverword {
+  display: flex;
+  flex-direction: column;
+  background-color: silver;
+  color: white;
+  justify-content: space-around;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  font-style: Work Sans, Arial, sans-serif;
+  margin-left: 10px;
+}
+.silver img {
+  width: 270px;
+  height: Auto;
+  padding-top: 10px;
+}
+.silverproducts {
+  gap: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-around;
+}
+.products h2 {
+  color: rgb(164, 154, 135);
+}
+/* silver done */
+.gold {
+  margin-top: 30px;
+  display: flex;
+}
+.gold img {
+  width: 270px;
+  height: Auto;
+  padding-top: 10px;
+}
+.goldproducts {
+  gap: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-around;
+}
+#goldword {
+  display: flex;
+  flex-direction: column;
+  background-color: goldenrod;
+  color: white;
+  justify-content: space-around;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  font-style: Work Sans, Arial, sans-serif;
+  margin-left: 10px;
+}
+/* goldpart done */
+.diamond {
+  margin-top: 30px;
+  display: flex;
+  margin-right: 57px;
+}
+.diamond img {
+  width: 400px;
+  height: auto;
+}
+.diamondproducts {
+  gap: 1rem;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-around;
+}
+#diamondword {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+  font-size: large;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  font-style: Work Sans, Arial, sans-serif;
+  margin-left: 10px;
+  justify-self: flex-start;
+}
+/* diamondpart done */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#center {
+  width: 1000px;
+}
+.aboutusimg {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.aboutusimg img {
+  width: 400px;
+  gap: 1rem;
+  padding-right: 50px;
+}
+#img3main {
+  width: 1000px;
+}
+.main p {
+  font-family: spartan, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(91, 85, 75);
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+/*About us main done*/
+hr {
+  border-top: 5px solid #993369;
+  margin-top: 20px;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#logoo {
+  width: 400px;
+  margin-left: 500px;
+}
+#title {
+  font-size: 14px;
+  color: #000;
+  line-height: 24px;
+  letter-spacing: normal;
+  font-weight: 600;
+  font-style: normal;
+  padding-bottom: 0;
+}
+.end p {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: none;
+}
+.end a {
+  text-decoration: none;
+  color: #000;
+}
+/* end done */
+
+.fotter {
+  display: flex;
+  justify-content: center;
+  color: grey;
+}

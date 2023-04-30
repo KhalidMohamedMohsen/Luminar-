@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Luminaré/Collection</title>
+
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="navbar">
+        <a href="/index.html">
+          <img id="logo" alt="logo" src="/Logo/2023-04-30.png" />
+        </a>
+        <div class="navtools">
+          <a id="home" href="/index.html"><h3>Home</h3></a>
+          <a id="aboutus" href="./AboutUs.html"><h3>About us</h3></a>
+          <a id="contactus" href=""><h3>Contact us</h3></a>
+          <a id="collection" href="./Collection.html"><h3>Collection</h3></a>
+        </div>
+      </div>
+      <!-- nav bar done -->
+      <div id="alerts"></div>
+      <div class="maincontainer">
+        <div class="productcontainer">
+          <div class="product">
+            <h1 class="productname">Superwoman necklace</h1>
+            <img src="/products/1.jpg" />
+            <p>
+              Metal: 18K Yellow Gold<br />
+              Chain Length: 45 cm
+            </p>
+            <p class="price">EGP 3750</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <h1 class="productname">Pink stone wings ring</h1>
+            <img src="/products/2.png" />
+            <p>
+              Metal: 18K Yellow Gold<br />
+              Stone: Colored Stones,Multi-shaped
+            </p>
+            <p class="price">EGP 3100</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <h1 class="productname">Green baguette stone ring</h1>
+            <img src="/products/3.png" />
+            <p>
+              Metal: 18K Yellow Gold<br />
+              Stone: Colored Stones,Multi-shaped
+            </p>
+            <p class="price">EGP 3500</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <h1 class="productname">18K Gold Diamond Pendant Necklace</h1>
+            <img src="/products/4.jpg" />
+            <p>
+              Metal: 18K White Gold<br />
+              Diamond: 0.31 Carat,Brilliant Cut<br />
+              Stone: Diamond<br />
+              Chain Length: 45 cm
+            </p>
+            <p class="price">EGP 38415</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <h1 class="productname">18K Gold Diamond Chain Bracelet</h1>
+            <img src="/products/5.jpg" />
+            <p>
+              Metal: 18K Yellow & White Gold<br />
+              Diamond: 0.25 Carat,Brilliant Cut<br />
+              Stone: Diamond<br />
+              Bracelet Size: 22 cm
+            </p>
+            <p class="price">EGP 27780</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+          <div class="product">
+            <h1 class="productname">Stones necklace</h1>
+            <img src="/products/6.jpg" />
+            <p>
+              Metal: 18K Yellow Gold<br />
+              Stone: Colored Stones,0.01 Carat,Round Shaped<br />
+              Chain Length: 42 cm
+            </p>
+            <p class="price">EGP 4950</p>
+            <button class="addtocart">Add To Cart</button>
+          </div>
+        </div>
+        <div class="cart">
+          <h2>Cart</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Product</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody id="tablebody"></tbody>
+          </table>
+        </div>
+        <div class="checkout">
+          <h2>Checkout</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Number Of Products</th>
+                <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>x <span id="itemsquantity">0</span></td>
+                <td>EGP<span id="total">0</span></td>
+              </tr>
+            </tbody>
+          </table>
+          <button id="emptycart">Emtpy Cart</button>
+          <button id="buy">Checkout</button>
+        </div>
+      </div>
+      <hr />
+      <img id="logoo" src="/Logo/2023-04-30 (1).png" />
+      <div class="end">
+        <div class="cs">
+          <p id="title">Customer Service</p>
+          <a href=""><p>Contact us</p></a>
+          <p>FAQ</p>
+          <p>Store Locations</p>
+        </div>
+        <div class="world">
+          <p id="title">Luminaré World</p>
+          <a href="./AboutUs.html"><p>About Luminaré</p></a>
+          <p>Heritage</p>
+          <p>Celebrities Choice</p>
+          <p>Governance and Investor Relations</p>
+        </div>
+        <div class="services">
+          <p id="title">Services</p>
+          <p>Returns, Exchanges & Refund policy</p>
+        </div>
+      </div>
+      <hr />
+      <div class="fotter">
+        <p>2023 Luminaré. All Rights Reserved.</p>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <script src="./Script.js"></script>
+  </footer>
+</html>
